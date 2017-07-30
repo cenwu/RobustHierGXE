@@ -2,4 +2,4 @@
 Robust identification of hierarchical Gene Environment interactions
 
 
-The code has been tested under Linux
+The codes have been tested under Linux
