@@ -26,7 +26,7 @@
 
 
           dat = Data1(n,s)
-          y = dat$y; x = dat$x; e = dat$e; xx = dat$xx; rate[i] = dat$rate;
+          y = dat$y; x = dat$x; e = dat$e; xx = dat$xx; 
           # generate an independent testing set
           dat.test = Data1(nt,s)
           y.test = dat.test$y; x.test = dat.test$x; e.test = dat.test$e; xx.test = dat.test$xx;  
