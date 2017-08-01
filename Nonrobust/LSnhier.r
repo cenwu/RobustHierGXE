@@ -98,8 +98,6 @@ LSnhier <- function(y,x,e,y.test,x.test,e.test,tol,eps,s,xx,xx.test)
                           diff.out.old = diff.out;                         
                           diff.out = mean((beta-beta.out)^2); 
                           step.out = step.out+1                        
-                          cat("step.out = ", step.out, "lam1 = ", lam1, "\n")
-                          cat("diff.out = ", diff.out,  "\n")
                           #print(j)
                           y.new = y - as.matrix(xx[,((q+1):dim(xx)[2])])%*%as.matrix(beta[(q+1):dim(xx)[2]])
                           lm = lm(y.new~xx[,1:q]-1)
