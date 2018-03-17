@@ -73,7 +73,7 @@ Data1 <- function(n,s)
      status = 1*(tt<=cens)
      y2 = tt*(tt<=cens)+cens*(tt>cens)
      y.o <- log(y2) 
-     y.o[which(y.o=="-Inf")] = LOG
+     y.o[which(y.o=="NaN")] = LOG
      d.o <- 1 * (tt <= cens)      
      xs=x[order(y.o),]
      es=e[order(y.o),]
