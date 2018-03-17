@@ -1,7 +1,7 @@
 Data1 <- function(n,s)
 {
 
-         # n = 200; s = 200;
+         # n = 200; s = 200;  
          q = 10
          sige = matrix(0,q,q)
 
